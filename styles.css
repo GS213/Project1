@@ -1,0 +1,80 @@
+/* Center and style the h1 */
+.project-title {
+  text-align: center; /* Center align the text */
+  color: blue; /* Change text color to blue */
+  font-size: 2rem; /* Adjust size as needed */
+  margin-top: 20px; /* Example margin adjustment */
+}
+
+/* Center and style the h2 */
+.aaa {
+  text-align: center; /* Center align the text */
+  font-size: 2rem; /* Adjust size as needed */
+  animation: colorChange 2s infinite alternate; /* Example animation */
+}
+
+/* Animation keyframes for h2 */
+@keyframes colorChange {
+  from { color: black; } /* Start color */
+  to { color: yellow; } /* End color */
+}
+
+/* Center and style the image */
+img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center align the image horizontally */
+  max-width: 30%; /* Reduce image size to 30% of its container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Example margin adjustment */
+}
+
+/* Styles for custom buttons */
+.custom-button {
+  /* Basic button styles */
+  position: fixed; /* Position relative to the viewport */
+  top: 250px; /* Distance from the top */
+  right: 150px; /* Distance from the right */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue background color */
+  color: white;
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.custom-button.secondary {
+  background-color: #6c757d; /* Gray background color for secondary button */
+}
+
+.custom-button.secondary:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Positioning and styling the time display element */
+.time-upper-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem; /* Adjust font size as needed */
+  padding: 5px; /* Optional: add padding for better appearance */
+  border: 1px solid #ccc; /* Optional: add border for better appearance */
+  border-radius: 4px; /* Optional: add border radius for better appearance */
+  background-color: #f9f9f9; /* Optional: add background color for better appearance */
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the Georgian flag */
+.georgia-flag {
+  top: 20;
+  width: 10px;
+  height: 10px;
+  margin-right: 20px; /* Space between the flag and */
